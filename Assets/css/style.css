@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+body{
+    background-image: url('../images/wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar, .navbar-brand{
+    background-color: #000;
+}
+.navbar-nav{
+    font-weight: 500;
+}
+.join-btn{
+    background-color: #E50914 !important;
+    color: #fff;
+}
+.light{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.text-area{
+    padding-top: 13vh;
+    padding-left: 3.8vw;
+}
+h1{
+    font-size: 4.6em;
+    color: #fff;
+    font-family: 'Castoro', serif;
+    letter-spacing: -8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+h3{
+    color: #fff;
+    line-height: 2;
+}
+.vertical-line{
+    display: inline-block;
+    border-left: 2px solid #fff;
+    margin: 0 10px;
+    height:1.6vh;
+}
+h6{
+    color: rgb(144, 144, 144);
+    line-height: 3;
+}
+.borderBox{
+    border: 1px solid #fff;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+p{
+    color:#fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.categories{
+    color: rgb(109, 109, 109);
+}

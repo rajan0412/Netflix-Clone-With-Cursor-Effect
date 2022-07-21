@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+  <div class="light"></div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand p-2" href="#">
+        <img src="Assets/images/logo.png" width="160" height="43.5" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto px-3 mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link px-3" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">Tv Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">Recently Added</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">My List</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 ml-auto my-lg-0">
+          <button class="btn my-2 mx-3 my-sm-0 join-btn" type="join">JOIN NOW</button>
+          <button class="btn btn-outline-light my-2 mx-3 my-sm-0" type="Signin">SIGN IN</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 text-area">
+          <h1>Voldemort</h1>
+          <h3>Voldemort: Origins of the Heir</h3>
+          <h6>2018<span class="vertical-line"></span> Adventure, Fantasy <span class="vertical-line"></span> <span class="borderBox">16+</span></h6>
+          <p>A fan made prequel to the Harry Potter series based on Tom Riddle and his progression to becoming The Dark
+            Lord.</p>
+          <p>
+            <span class="categories">Director:</span> Gianmaria Pezzato <br>
+            <span class="categories">Writers:</span> Gianmaria Pezzato, J.K. Rowling (novels) <br>
+            <span class="categories">Stars:</span> Stefano Rossi Giordani, Rorie Stockton, Aurora Moroni
+          </p>
+          <form class="form-inline">
+            <button class="btn my-2 px-4 mr-4 m y-sm-0 join-btn" type="play">
+              <i class="fa fa-play mr-2 ml-1"></i>PLAY</button>
+            <button class="btn btn-outline-light px-3 my-2 my-sm-0" type="mylist">
+              <i class="fa fa-check mr-2 ml-1"></i>MY LIST</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+    $(document).mousemove(function (e) {
+      var X = e.pageX;
+      var Y = e.pageY;
+      $('.light').css('background', 'radial-gradient(circle at ' + X + 'px ' + Y + 'px, transparent, #000 50% )');
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
